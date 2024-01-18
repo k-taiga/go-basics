@@ -1,10 +1,9 @@
 package main
 
-import (
-	"main/channel"
-)
+import "main/channel"
 
 func main() {
 	// tracer.DemoTracer()
-	channel.DemoChannel()
+	// channel.DemoChannel()
+	channel.ChannelClose()
 }
