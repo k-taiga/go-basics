@@ -1,6 +1,8 @@
 package main
 
-import "main/context"
+import (
+	errdemo "main/errDemo"
+)
 
 func main() {
 	// tracer.DemoTracer()
@@ -10,5 +12,6 @@ func main() {
 	// channel.DemoSelectContinuous()
 	// context.DemoContextWithTimeout()
 	// context.DemoContextWithCancel()
-	context.DemoContextWithDeadline()
+	// context.DemoContextWithDeadline()
+	errdemo.DemoErrGroup()
 }
