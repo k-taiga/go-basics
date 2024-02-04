@@ -1,7 +1,7 @@
 package main
 
 import (
-	errdemo "main/errDemo"
+	"main/pipeline"
 )
 
 func main() {
@@ -13,5 +13,7 @@ func main() {
 	// context.DemoContextWithTimeout()
 	// context.DemoContextWithCancel()
 	// context.DemoContextWithDeadline()
-	errdemo.DemoErrGroup()
+	// errdemo.DemoErrGroup()
+	// pipeline.DemoPipeline()
+	pipeline.DemoFanoutFanin()
 }
