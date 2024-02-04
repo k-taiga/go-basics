@@ -1,0 +1,1 @@
+ERROR: 2024/02/04 07:31:22 doTask goroutine's heartbeat is stopped

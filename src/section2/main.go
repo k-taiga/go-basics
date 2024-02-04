@@ -1,8 +1,6 @@
 package main
 
-import (
-	"main/pipeline"
-)
+import heartbeatwithwatchdogtimer "main/heartbeatWithWatchdogTimer"
 
 func main() {
 	// tracer.DemoTracer()
@@ -15,5 +13,6 @@ func main() {
 	// context.DemoContextWithDeadline()
 	// errdemo.DemoErrGroup()
 	// pipeline.DemoPipeline()
-	pipeline.DemoFanoutFanin()
+	// pipeline.DemoFanoutFanin()
+	heartbeatwithwatchdogtimer.DemoHeartBeat()
 }
